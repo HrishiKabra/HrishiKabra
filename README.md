@@ -16,9 +16,9 @@ My journey blends:
 ---
 
 ## 💻 Experience  
-- **Teaching Assistant, Tulane CS Dept.** – Leading labs and mentoring students in foundational programming.  
-- **Research Assistant, Tulane AI Lab** – Building a Django-based voting theory web app with scoring rules & optimization.  
-- **Desktop Support Technician, Tulane Law IT** – Providing software & hardware support in a professional IT environment.  
+- **Teaching Assistant, Tulane University Department of Computer Science** – Leading labs and mentoring students in foundational programming.  
+- **Research Assistant, Tulane Data and Artificial Intelligence Lab** – Building a Django-based voting theory web app with scoring rules & optimization.  
+- **Desktop Support Technician, Tulane University Law School IT Department** – Providing software & hardware support in a professional IT environment.  
 - **AI Intern, Niyogin AI** – Designed and deployed an NLP pipeline (97% precision) for automating document digitization.  
 - **Intern, ITI Growth Opportunities** – Researched and presented applications of GenAI across industries.  
 
