@@ -1,17 +1,17 @@
 # Hi, I’m Hrishi 👋  
 
 🎓 **BS Mathematics & Computer Science @ Tulane University (GPA: 3.93)**  
-📍 New Orleans, LA | 📧 [Email](mailto:hkabra@tulane.edu) | 💼 [LinkedIn](https://linkedin.com/in/hrishikabra) | 💻 [GitHub](https://github.com/HrishiKabra)  
+📍 New Orleans, LA | 📧 [Email](mailto:hkabra@tulane.edu) | 💼 [LinkedIn](https://linkedin.com/in/hrishikabra) | 💻 [GitHub](https://github.com/HrishiKabra) | 📝 [Resume](https://drive.google.com/file/d/16BxpHExstmPmJpKHnrrAhqv4sI_Xm79Y/view?usp=sharing)
 
 ---
 
 ## 📌 About Me  
-I’m a **South Asian Scholar** and **First Year Honors Scholar** at Tulane University, double-majoring in Mathematics and Computer Science with a minor in AI. I enjoy solving technical challenges through **AI, software engineering, and data science**—and applying those skills in projects with real-world impact.  
+I’m a **South Asian Scholar** and **First Year Honors Scholar** at Tulane University, double-majoring in Mathematics and Computer Science with a minor in AI (GPA: 3.93 / 4). I enjoy solving technical challenges through **AI, software engineering, and data science**—and applying those skills in projects with real-world impact.  
 
 My journey blends:  
-- **Tech development** – from building full-stack apps to deploying AI pipelines.  
-- **Entrepreneurship & leadership** – running ventures like *Pop Portraits* and co-founding *WeKidsCare*.  
-- **Global exposure** – internships in AI, VC/tech acquisitions, and research projects spanning India to the U.S.  
+- **Tech Development** – from building full-stack apps to deploying AI pipelines.  
+- **Entrepreneurship & Leadership** – running ventures like *Pop Portraits* and co-founding *WeKidsCare*.  
+- **Global Exposure** – internships in AI, VC/tech acquisitions, and research projects spanning India to the U.S.  
 
 ---
 
@@ -54,6 +54,13 @@ Founder of a custom design & personalized products venture.
 **Programming:** Python, Java, C/C++, JavaScript, SQL, HTML/CSS  
 **Frameworks & Tools:** Flask, React, Node.js, Docker, AWS (S3/Glue/Athena), Git, Figma, Photoshop  
 **Languages:** English (Fluent), Hindi (Fluent), German (Conversational), Marathi (Conversational)  
+
+---
+
+## 🏆 Awards
+- **Dean's List** - Fall 2024, Spring 2025
+- **Citizenship Award** - Active participation in highschool and community events, displaying leadership, and showing a problem-solving mindset.
+- **CAS Excellence Award** - Contributed to community through exemplary participation in a range of collaborative projects that span Creativity, Action and Service
 
 ---
 
