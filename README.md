@@ -1,12 +1,12 @@
 # Hi, I’m Hrishi 👋  
 
-🎓 **BS Mathematics & Computer Science @ Tulane University (GPA: 3.93)**  
+🎓 **BS Mathematics & Computer Science @ Tulane University (GPA: 3.95)**  
 📍 New Orleans, LA | 📧 [Email](mailto:hkabra@tulane.edu) | 💼 [LinkedIn](https://linkedin.com/in/hrishikabra) | 💻 [GitHub](https://github.com/HrishiKabra) | 📝 [Resume](https://drive.google.com/file/d/16BxpHExstmPmJpKHnrrAhqv4sI_Xm79Y/view?usp=sharing)
 
 ---
 
 ## 📌 About Me  
-I’m a **South Asian Scholar** and **First Year Honors Scholar** at Tulane University, double-majoring in Mathematics and Computer Science with a minor in AI (GPA: 3.93 / 4). I enjoy solving technical challenges through **AI, software engineering, and data science**—and applying those skills in projects with real-world impact.  
+I’m a **South Asian Scholar** and **First Year Honors Scholar** at Tulane University, double-majoring in Mathematics and Computer Science with a minor in AI (GPA: 3.95 / 4). I enjoy solving technical challenges through **AI, software engineering, and data science**—and applying those skills in projects with real-world impact.  
 
 My journey blends:  
 - **Tech Development** – from building full-stack apps to deploying AI pipelines.  
