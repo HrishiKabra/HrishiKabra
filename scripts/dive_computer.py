@@ -64,21 +64,19 @@ def fetch(token, user):
     langs = [r["language"] for r in repos if not r["fork"] and r["language"]]
 
     prs = _get(f"{API}/search/issues?q=author:{user}+type:pr+state:open", token)
-    events = _get(f"{API}/users/{user}/events?per_page=100", token)
 
     return {
         "days": days,
         "year_total": cal["totalContributions"],
         "langs": langs,
         "open_prs": prs["total_count"],
-        "events": events,
     }
 
 
-def commits_last_30d(events, today):
+def contributions_last_30d(days, today):
+    # the contribution calendar sees private activity; the events API doesn't
     cutoff = (dt.date.fromisoformat(today) - dt.timedelta(days=30)).isoformat()
-    return sum(e["payload"].get("size", 0) for e in events
-               if e["type"] == "PushEvent" and e["created_at"][:10] >= cutoff)
+    return sum(c for d, c in days.items() if cutoff <= d <= today)
 
 
 def current_streak(days, today):
@@ -128,7 +126,7 @@ def render(mode, bottom_time, ndl, mix, max_depth, deco, synced=""):
         return out
 
     rows = "".join([
-        _row(86, "BOTTOM TIME", val(bottom_time, "commits · 30d"), p),
+        _row(86, "BOTTOM TIME", val(bottom_time, "contrib · 30d"), p),
         _row(118, "NDL", val(ndl, "day streak"), p),
         _row(150, "GAS MIX", val(mix), p),
         _row(182, "MAX DEPTH", val(max_depth, "contributions · 1y"), p),
@@ -149,7 +147,7 @@ def main():
     data = fetch(token, user)
 
     metrics = {
-        "bottom_time": commits_last_30d(data["events"], today),
+        "bottom_time": contributions_last_30d(data["days"], today),
         "ndl": current_streak(data["days"], today),
         "mix": gas_mix(data["langs"]),
         "max_depth": data["year_total"],

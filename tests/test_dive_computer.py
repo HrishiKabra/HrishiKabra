@@ -1,4 +1,9 @@
-from scripts.dive_computer import current_streak, gas_mix, render
+from scripts.dive_computer import contributions_last_30d, current_streak, gas_mix, render
+
+
+def test_contributions_last_30d_window():
+    days = {"2026-06-12": 3, "2026-05-20": 2, "2026-05-01": 9}
+    assert contributions_last_30d(days, today="2026-06-12") == 5
 
 
 def test_current_streak_counts_back_from_today():
