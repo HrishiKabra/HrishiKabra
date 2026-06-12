@@ -1,0 +1,50 @@
+# Renders the Dive Computer and Dive Forecast cards from live GitHub activity.
+# Scripts are stdlib-only Python; a fetch failure aborts the publish so
+# yesterday's cards stay up (never a broken image).
+
+name: Generate dive instrument cards
+
+on:
+  schedule:
+    - cron: "30 6 * * *"   # 06:30 UTC ≈ 1:30am New Orleans
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull current forecast history from output branch
+        run: |
+          curl -sf https://raw.githubusercontent.com/HrishiKabra/HrishiKabra/output/markets-history.json \
+            -o markets-history.json || echo '{"forecasts": []}' > markets-history.json
+
+      - name: Render dive computer
+        run: python -m scripts.dive_computer
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: HrishiKabra
+
+      - name: Render dive forecast
+        run: python -m scripts.forecast
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: HrishiKabra
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
