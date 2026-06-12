@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" role="img" aria-label="Hrishi Kabra — night dive, name half submerged">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#020d13"/>
+      <stop offset="1" stop-color="#0a2433"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14455c"/>
+      <stop offset="0.5" stop-color="#0d2137"/>
+      <stop offset="1" stop-color="#020d13"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d8f6ff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#d8f6ff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="above"><rect x="0" y="0" width="1200" height="110"/></clipPath>
+    <clipPath id="below"><rect x="0" y="110" width="1200" height="210"/></clipPath>
+  </defs>
+
+  <style>
+    .surf { animation: surf 8s ease-in-out infinite alternate; }
+    @keyframes surf { from { transform: translateX(0); } to { transform: translateX(-90px); } }
+    .star { animation: twinkle 4s ease-in-out infinite alternate; }
+    .star2 { animation-delay: -1.3s; }
+    .star3 { animation-delay: -2.6s; }
+    @keyframes twinkle { from { opacity: 0.25; } to { opacity: 0.95; } }
+    .beam { transform-origin: 985px 112px; animation: sweep 12s ease-in-out infinite alternate; }
+    @keyframes sweep { from { transform: rotate(-8deg); } to { transform: rotate(8deg); } }
+    .bub { animation: rise linear infinite; }
+    .bubA { animation-duration: 9s; }
+    .bubB { animation-duration: 13s; animation-delay: -4s; }
+    .bubC { animation-duration: 17s; animation-delay: -9s; }
+    @keyframes rise {
+      0%   { transform: translateY(0);      opacity: 0; }
+      12%  { opacity: 0.85; }
+      85%  { opacity: 0.6; }
+      100% { transform: translateY(-340px); opacity: 0; }
+    }
+    .manta { animation: cross 45s linear infinite; }
+    @keyframes cross { from { transform: translateX(1320px); } to { transform: translateX(-360px); } }
+    .bob { animation: bob 5s ease-in-out infinite alternate; }
+    @keyframes bob { from { transform: translateY(-10px); } to { transform: translateY(10px); } }
+  </style>
+
+  <rect width="1200" height="115" fill="url(#sky)"/>
+  <circle cx="1040" cy="34" r="70" fill="url(#moon)"/>
+  <circle cx="1040" cy="34" r="18" fill="#d8f6ff" opacity="0.9"/>
+  <g fill="#d8f6ff">
+    <circle class="star"  cx="90"  cy="30" r="1.4"/>
+    <circle class="star2" cx="210" cy="58" r="1.1"/>
+    <circle class="star3" cx="330" cy="22" r="1.5"/>
+    <circle class="star2" cx="470" cy="46" r="1.1"/>
+    <circle class="star"  cx="585" cy="18" r="1.3"/>
+    <circle class="star3" cx="700" cy="52" r="1.2"/>
+    <circle class="star"  cx="820" cy="28" r="1.4"/>
+    <circle class="star2" cx="935" cy="66" r="1.0"/>
+    <circle class="star3" cx="1150" cy="80" r="1.2"/>
+  </g>
+  <rect y="110" width="1200" height="210" fill="url(#water)"/>
+
+  <g class="surf">
+    <path d="M-200,110 C-130,103 -60,117 10,110 C80,103 150,117 220,110 C290,103 360,117 430,110 C500,103 570,117 640,110 C710,103 780,117 850,110 C920,103 990,117 1060,110 C1130,103 1200,117 1270,110 C1340,103 1410,117 1480,110 L1480,124 L-200,124 Z" fill="#22a3b8" opacity="0.45"/>
+  </g>
+
+  <!-- dive-light beam sweeping from the surface -->
+  <g class="beam">
+    <polygon points="985,112 830,320 1140,320" fill="#5ee7df" opacity="0.09"/>
+    <polygon points="985,112 905,320 1065,320" fill="#5ee7df" opacity="0.07"/>
+  </g>
+
+  <!-- name straddling the waterline -->
+  <g clip-path="url(#above)">
+    <text x="600" y="132" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="10" fill="#d8f6ff">HRISHI KABRA</text>
+  </g>
+  <g clip-path="url(#below)">
+    <text x="600" y="132" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="10" fill="#5ee7df" opacity="0.45" transform="translate(5,4) skewX(-2)">HRISHI KABRA</text>
+  </g>
+  <text x="600" y="178" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="17" letter-spacing="6" fill="#5ee7df" opacity="0.85">SWE · AI RESEARCH · MASTER SCUBA DIVER</text>
+
+  <!-- bioluminescent bubbles -->
+  <g class="bub bubA" opacity="0.85">
+    <circle cx="150" cy="345" r="4" fill="none" stroke="#5ee7df" stroke-width="1.5"/>
+    <circle cx="168" cy="372" r="2.5" fill="none" stroke="#5ee7df" stroke-width="1.2"/>
+    <circle cx="139" cy="392" r="3" fill="none" stroke="#5ee7df" stroke-width="1.2"/>
+    <circle cx="160" cy="412" r="2" fill="none" stroke="#5ee7df" stroke-width="1"/>
+  </g>
+  <g class="bub bubB" opacity="0.85">
+    <circle cx="720" cy="350" r="5" fill="none" stroke="#5ee7df" stroke-width="1.5"/>
+    <circle cx="700" cy="378" r="3" fill="none" stroke="#5ee7df" stroke-width="1.2"/>
+    <circle cx="731" cy="398" r="2.5" fill="none" stroke="#5ee7df" stroke-width="1"/>
+    <circle cx="712" cy="424" r="2" fill="none" stroke="#5ee7df" stroke-width="1"/>
+  </g>
+  <g class="bub bubC" opacity="0.85">
+    <circle cx="1080" cy="348" r="4" fill="none" stroke="#5ee7df" stroke-width="1.5"/>
+    <circle cx="1098" cy="374" r="2.5" fill="none" stroke="#5ee7df" stroke-width="1.2"/>
+    <circle cx="1069" cy="396" r="3" fill="none" stroke="#5ee7df" stroke-width="1.2"/>
+  </g>
+
+  <!-- manta shadow -->
+  <g class="manta">
+    <g class="bob">
+      <g transform="translate(0,238)" fill="#00141d" opacity="0.75">
+        <path d="M0,0 C30,-26 70,-34 105,-8 C115,-16 135,-16 145,-8 C180,-34 220,-26 250,0 C214,12 180,10 152,22 C140,30 110,30 98,22 C70,10 36,12 0,0 Z"/>
+        <path d="M148,18 C190,30 250,34 320,26 C252,44 196,40 146,26 Z"/>
+        <circle cx="112" cy="-8" r="2.5" fill="#5ee7df"/>
+      </g>
+    </g>
+  </g>
+</svg>

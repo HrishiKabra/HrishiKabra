@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" role="img" aria-label="Hrishi Kabra — surface of the ocean, name half submerged">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff7e6"/>
+      <stop offset="1" stop-color="#e0f7fa"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#80deea"/>
+      <stop offset="0.45" stop-color="#0097a7"/>
+      <stop offset="0.78" stop-color="#006064"/>
+      <stop offset="1" stop-color="#041c26"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3c4" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fff3c4" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="above"><rect x="0" y="0" width="1200" height="110"/></clipPath>
+    <clipPath id="below"><rect x="0" y="110" width="1200" height="210"/></clipPath>
+  </defs>
+
+  <style>
+    .surf { animation: surf 8s ease-in-out infinite alternate; }
+    @keyframes surf { from { transform: translateX(0); } to { transform: translateX(-90px); } }
+    .ray { animation: shimmer 10s ease-in-out infinite alternate; }
+    .ray2 { animation-delay: -3s; }
+    .ray3 { animation-delay: -6s; }
+    @keyframes shimmer { from { opacity: 0.04; } to { opacity: 0.13; } }
+    .bub { animation: rise linear infinite; }
+    .bubA { animation-duration: 9s; }
+    .bubB { animation-duration: 13s; animation-delay: -4s; }
+    .bubC { animation-duration: 17s; animation-delay: -9s; }
+    @keyframes rise {
+      0%   { transform: translateY(0);      opacity: 0; }
+      12%  { opacity: 0.7; }
+      85%  { opacity: 0.5; }
+      100% { transform: translateY(-340px); opacity: 0; }
+    }
+    .manta { animation: cross 45s linear infinite; }
+    @keyframes cross { from { transform: translateX(1320px); } to { transform: translateX(-360px); } }
+    .bob { animation: bob 5s ease-in-out infinite alternate; }
+    @keyframes bob { from { transform: translateY(-10px); } to { transform: translateY(10px); } }
+  </style>
+
+  <rect width="1200" height="115" fill="url(#sky)"/>
+  <circle cx="1040" cy="34" r="92" fill="url(#sun)"/>
+  <rect y="110" width="1200" height="210" fill="url(#water)"/>
+
+  <!-- surface swell: periodic over 1200, drawn wider and oscillated -->
+  <g class="surf">
+    <path d="M-200,110 C-130,103 -60,117 10,110 C80,103 150,117 220,110 C290,103 360,117 430,110 C500,103 570,117 640,110 C710,103 780,117 850,110 C920,103 990,117 1060,110 C1130,103 1200,117 1270,110 C1340,103 1410,117 1480,110 L1480,124 L-200,124 Z" fill="#b2ebf2" opacity="0.9"/>
+  </g>
+
+  <!-- light rays -->
+  <polygon class="ray" points="250,118 180,320 360,320" fill="#ffffff"/>
+  <polygon class="ray ray2" points="600,118 560,320 740,320" fill="#ffffff"/>
+  <polygon class="ray ray3" points="930,118 880,320 1040,320" fill="#ffffff"/>
+
+  <!-- name straddling the waterline -->
+  <g clip-path="url(#above)">
+    <text x="600" y="132" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="10" fill="#063a44">HRISHI KABRA</text>
+  </g>
+  <g clip-path="url(#below)">
+    <text x="600" y="132" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="10" fill="#f4fdff" opacity="0.75" transform="translate(5,4) skewX(-2)">HRISHI KABRA</text>
+  </g>
+  <text x="600" y="178" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="17" letter-spacing="6" fill="#b2ebf2" opacity="0.95">SWE · AI RESEARCH · MASTER SCUBA DIVER</text>
+
+  <!-- bubbles -->
+  <g class="bub bubA" opacity="0.7">
+    <circle cx="150" cy="345" r="4" fill="none" stroke="#e0f7fa" stroke-width="1.5"/>
+    <circle cx="168" cy="372" r="2.5" fill="none" stroke="#e0f7fa" stroke-width="1.2"/>
+    <circle cx="139" cy="392" r="3" fill="none" stroke="#e0f7fa" stroke-width="1.2"/>
+    <circle cx="160" cy="412" r="2" fill="none" stroke="#e0f7fa" stroke-width="1"/>
+  </g>
+  <g class="bub bubB" opacity="0.7">
+    <circle cx="720" cy="350" r="5" fill="none" stroke="#e0f7fa" stroke-width="1.5"/>
+    <circle cx="700" cy="378" r="3" fill="none" stroke="#e0f7fa" stroke-width="1.2"/>
+    <circle cx="731" cy="398" r="2.5" fill="none" stroke="#e0f7fa" stroke-width="1"/>
+    <circle cx="712" cy="424" r="2" fill="none" stroke="#e0f7fa" stroke-width="1"/>
+  </g>
+  <g class="bub bubC" opacity="0.7">
+    <circle cx="1080" cy="348" r="4" fill="none" stroke="#e0f7fa" stroke-width="1.5"/>
+    <circle cx="1098" cy="374" r="2.5" fill="none" stroke="#e0f7fa" stroke-width="1.2"/>
+    <circle cx="1069" cy="396" r="3" fill="none" stroke="#e0f7fa" stroke-width="1.2"/>
+  </g>
+
+  <!-- manta ray drifting right to left -->
+  <g class="manta">
+    <g class="bob">
+      <g transform="translate(0,238)" fill="#063a44" opacity="0.55">
+        <path d="M0,0 C30,-26 70,-34 105,-8 C115,-16 135,-16 145,-8 C180,-34 220,-26 250,0 C214,12 180,10 152,22 C140,30 110,30 98,22 C70,10 36,12 0,0 Z"/>
+        <path d="M148,18 C190,30 250,34 320,26 C252,44 196,40 146,26 Z"/>
+        <circle cx="112" cy="-8" r="2.5" fill="#e0f7fa"/>
+      </g>
+    </g>
+  </g>
+</svg>
