@@ -4,7 +4,7 @@
 </picture>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3000&pause=900&color=0097A7&center=true&vCenter=true&width=600&lines=Building+person-enrichment+pipelines+%40+Louisa+AI;Publishing+at+AAMAS+2026;Pricing+tournaments+with+Dixon-Coles;Logging+dive+%23112+in+the+Coral+Triangle" alt="Building person-enrichment pipelines @ Louisa AI · Publishing at AAMAS 2026 · Pricing tournaments with Dixon-Coles · Logging dive #112 in the Coral Triangle">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3000&pause=900&color=0097A7&center=true&vCenter=true&width=600&lines=Building+person-enrichment+pipelines+%40+Louisa+AI;Publishing+at+AAMAS+2026;Pricing+tournaments+with+Dixon-Coles;80+dives+logged+%C2%B7+favorite+site%3A+Komodo" alt="Building person-enrichment pipelines @ Louisa AI · Publishing at AAMAS 2026 · Pricing tournaments with Dixon-Coles · 80 dives logged, favorite site: Komodo">
 </p>
 
 <p align="center">
@@ -16,45 +16,19 @@
 
 ## 🤿 0m · Surface Interval
 
-Hey, I'm Hrishi — a junior at Tulane University double-majoring in **Computer Science and Mathematics** (minors in AI and Business, 3.95 GPA) on a full-tuition **South Asian Scholar** merit award, based in New Orleans. I like building intelligent systems end to end: from the math underneath to the deployed product on top. Pre-dive check complete. Right now:
+Hey, I'm Hrishi — a junior at Tulane University double-majoring in **Computer Science and Mathematics** (minors in AI and Business, 3.95 GPA) on a full-tuition **South Asian Scholar** merit award, based in New Orleans. I like building intelligent systems end to end: from the math underneath to the deployed product on top. Pre-dive check complete.
 
-- 🛠️ **Software Engineer Intern @ [Louisa AI](https://louisa.ai)** (Embedded AI team) — a relationship-intelligence platform spun out of Goldman Sachs. Building production person-enrichment pipelines: open-web fallback enrichment, confidence-gated LLM identity judging, and trust-tier field reconciliation.
-- 🗳️ **Research Assistant @ Tulane Data & AI Collective (TUDAI)** — co-authored a paper accepted at **[AAMAS 2026](https://www.aamas2026.org)** on optimal positional scoring rules in computational social choice. Currently exploring social-choice methods for retrieval in multi-agent RAG.
-- 🧑‍🏫 **Teaching Assistant** for Intro to Data Science (CMPS 3160) and Intro to CS I (CMPS 1500) — weekly labs and office hours for 50+ students.
-- 🔎 **Recruiting for Summer 2027 SWE and AI/ML internships.**
+🔎 **Recruiting for Summer 2027 SWE and AI/ML internships.**
 
 <img src="assets/wave-1.svg" width="100%" height="40" alt="">
 
-## 🧭 Dive Plan
+## 🧭 Dive Log · Experience
 
-The route so far — three lines in the water, all merging back to `main`:
-
-```mermaid
-gitGraph
-  commit id: "Enroll @ Tulane '24"
-  commit id: "South Asian Scholar"
-  branch industry
-  checkout industry
-  commit id: "AI Intern · Niyogin"
-  checkout main
-  branch teaching
-  commit id: "TA · CMPS 1500"
-  checkout main
-  branch research
-  commit id: "RA · TUDAI"
-  commit id: "optimal-voting pkg"
-  checkout main
-  merge research id: "AAMAS 2026 📄" tag: "published"
-  checkout industry
-  commit id: "SWE Intern · Louisa AI"
-  checkout main
-  merge industry id: "production AI"
-  checkout teaching
-  commit id: "TA · CMPS 3160"
-  checkout main
-  merge teaching
-  commit id: "Summer 2027 → ?" type: HIGHLIGHT
-```
+- 🛠️ **[Louisa AI](https://louisa.ai)** — *Software Engineer Intern, Embedded AI team* · relationship-intelligence platform spun out of Goldman Sachs. Building production person-enrichment pipelines: open-web fallback enrichment, confidence-gated LLM identity judging, and trust-tier field reconciliation.
+- 🗳️ **Tulane Data & AI Collective (TUDAI)** — *Research Assistant* · co-authored a paper accepted at **[AAMAS 2026](https://www.aamas2026.org)** on optimal positional scoring rules in computational social choice. Currently exploring social-choice methods for retrieval in multi-agent RAG.
+- 🧑‍🏫 **Tulane Computer Science** — *Teaching Assistant, CMPS 3160 (Data Science) & CMPS 1500 (Intro CS)* · weekly labs and office hours for 50+ students.
+- 🤖 **Niyogin AI** — *AI Intern* · designed and deployed an NLP pipeline for automated document digitization at 97% precision.
+- 📊 **ITI Growth Opportunities** — *Intern* · researched and presented GenAI applications across industries.
 
 <img src="assets/wave-2.svg" width="100%" height="40" alt="">
 
@@ -162,6 +136,6 @@ Live telemetry from the bottom. The two instrument readouts regenerate every nig
 
 ## 🫧 5m · Safety Stop
 
-Three minutes before surfacing. Off the keyboard I'm a **PADI Master Scuba Diver** and underwater videographer — most of my dives are in the Coral Triangle, and I think a lot about where intelligent systems and ocean conservation can meet. Also: Formula 1 weekends, a long-running Wordle streak, and the occasional ruthless Monopoly tournament.
+Three minutes before surfacing. Off the keyboard I'm a **PADI Master Scuba Diver** and underwater videographer — **80 dives logged**, with Komodo, Indonesia as my favorite site — and I think a lot about where intelligent systems and ocean conservation can meet. Also: Formula 1 weekends, a long-running Wordle streak, and the occasional ruthless Monopoly tournament.
 
 <p align="center"><sub>— surfacing · thanks for diving along 🫧 · <a href="mailto:hkabra@tulane.edu">say hi</a> —</sub></p>
