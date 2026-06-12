@@ -1,0 +1,39 @@
+# Renders the 3D contribution terrain (default variants; README uses
+# profile-season-animate.svg for light mode, profile-night-rainbow.svg for dark).
+
+name: Generate 3D contribution terrain
+
+on:
+  schedule:
+    - cron: "15 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  terrain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D contribution SVGs
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: HrishiKabra
+
+      - name: Stage into dist/3d
+        run: |
+          mkdir -p dist/3d
+          cp profile-3d-contrib/*.svg dist/3d/
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
