@@ -342,7 +342,7 @@
    "date": "2026-06-22",
    "horizon": "2026-06-28",
    "p": 0.333,
-   "outcome": null
+   "outcome": false
   },
   {
    "id": "weekend-streak:2026-06-22",
@@ -350,7 +350,7 @@
    "date": "2026-06-22",
    "horizon": "2026-06-28",
    "p": 0.107,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "python-commit:2026-06-23",
@@ -374,7 +374,7 @@
    "date": "2026-06-23",
    "horizon": "2026-06-28",
    "p": 0.333,
-   "outcome": null
+   "outcome": false
   },
   {
    "id": "weekend-streak:2026-06-23",
@@ -382,7 +382,7 @@
    "date": "2026-06-23",
    "horizon": "2026-06-28",
    "p": 0.107,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "python-commit:2026-06-24",
@@ -406,7 +406,7 @@
    "date": "2026-06-24",
    "horizon": "2026-06-28",
    "p": 0.333,
-   "outcome": null
+   "outcome": false
   },
   {
    "id": "weekend-streak:2026-06-24",
@@ -414,7 +414,7 @@
    "date": "2026-06-24",
    "horizon": "2026-06-28",
    "p": 0.107,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "python-commit:2026-06-25",
@@ -438,7 +438,7 @@
    "date": "2026-06-25",
    "horizon": "2026-06-28",
    "p": 0.333,
-   "outcome": null
+   "outcome": false
   },
   {
    "id": "weekend-streak:2026-06-25",
@@ -446,7 +446,7 @@
    "date": "2026-06-25",
    "horizon": "2026-06-28",
    "p": 0.143,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "python-commit:2026-06-26",
@@ -470,7 +470,7 @@
    "date": "2026-06-26",
    "horizon": "2026-06-28",
    "p": 0.333,
-   "outcome": null
+   "outcome": false
   },
   {
    "id": "weekend-streak:2026-06-26",
@@ -478,7 +478,7 @@
    "date": "2026-06-26",
    "horizon": "2026-06-28",
    "p": 0.143,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "python-commit:2026-06-27",
@@ -486,7 +486,7 @@
    "date": "2026-06-27",
    "horizon": "2026-06-28",
    "p": 0.125,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "new-repo-month:2026-06-27",
@@ -502,7 +502,7 @@
    "date": "2026-06-27",
    "horizon": "2026-06-28",
    "p": 0.333,
-   "outcome": null
+   "outcome": false
   },
   {
    "id": "weekend-streak:2026-06-27",
@@ -510,7 +510,7 @@
    "date": "2026-06-27",
    "horizon": "2026-06-28",
    "p": 0.143,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "python-commit:2026-06-28",
@@ -534,7 +534,7 @@
    "date": "2026-06-28",
    "horizon": "2026-06-28",
    "p": 0.286,
-   "outcome": null
+   "outcome": false
   },
   {
    "id": "weekend-streak:2026-06-28",
@@ -542,6 +542,38 @@
    "date": "2026-06-28",
    "horizon": "2026-06-28",
    "p": 0.143,
+   "outcome": true
+  },
+  {
+   "id": "python-commit:2026-06-29",
+   "market": "python-commit",
+   "date": "2026-06-29",
+   "horizon": "2026-06-30",
+   "p": 0.421,
+   "outcome": null
+  },
+  {
+   "id": "new-repo-month:2026-06-29",
+   "market": "new-repo-month",
+   "date": "2026-06-29",
+   "horizon": "2026-06-30",
+   "p": 0.643,
+   "outcome": null
+  },
+  {
+   "id": "night-dive-week:2026-06-29",
+   "market": "night-dive-week",
+   "date": "2026-06-29",
+   "horizon": "2026-07-05",
+   "p": 0.375,
+   "outcome": null
+  },
+  {
+   "id": "weekend-streak:2026-06-29",
+   "market": "weekend-streak",
+   "date": "2026-06-29",
+   "horizon": "2026-07-05",
+   "p": 0.179,
    "outcome": null
   }
  ]
