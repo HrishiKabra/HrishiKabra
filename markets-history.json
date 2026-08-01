@@ -622,7 +622,7 @@
    "date": "2026-07-01",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-01",
@@ -654,7 +654,7 @@
    "date": "2026-07-02",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-02",
@@ -686,7 +686,7 @@
    "date": "2026-07-03",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-03",
@@ -718,7 +718,7 @@
    "date": "2026-07-04",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-04",
@@ -750,7 +750,7 @@
    "date": "2026-07-05",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-05",
@@ -782,7 +782,7 @@
    "date": "2026-07-06",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-06",
@@ -814,7 +814,7 @@
    "date": "2026-07-07",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-07",
@@ -846,7 +846,7 @@
    "date": "2026-07-08",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-08",
@@ -878,7 +878,7 @@
    "date": "2026-07-09",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-09",
@@ -910,7 +910,7 @@
    "date": "2026-07-10",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-10",
@@ -942,7 +942,7 @@
    "date": "2026-07-11",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-11",
@@ -974,7 +974,7 @@
    "date": "2026-07-12",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-12",
@@ -1006,7 +1006,7 @@
    "date": "2026-07-13",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-13",
@@ -1038,7 +1038,7 @@
    "date": "2026-07-14",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-14",
@@ -1070,7 +1070,7 @@
    "date": "2026-07-15",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-15",
@@ -1102,7 +1102,7 @@
    "date": "2026-07-16",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-16",
@@ -1134,7 +1134,7 @@
    "date": "2026-07-17",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-17",
@@ -1166,7 +1166,7 @@
    "date": "2026-07-18",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-18",
@@ -1198,7 +1198,7 @@
    "date": "2026-07-19",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-19",
@@ -1230,7 +1230,7 @@
    "date": "2026-07-20",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-20",
@@ -1262,7 +1262,7 @@
    "date": "2026-07-21",
    "horizon": "2026-07-31",
    "p": 0.714,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-21",
@@ -1294,7 +1294,7 @@
    "date": "2026-07-22",
    "horizon": "2026-07-31",
    "p": 0.714,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-22",
@@ -1326,7 +1326,7 @@
    "date": "2026-07-23",
    "horizon": "2026-07-31",
    "p": 0.714,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-23",
@@ -1358,7 +1358,7 @@
    "date": "2026-07-24",
    "horizon": "2026-07-31",
    "p": 0.714,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-24",
@@ -1390,7 +1390,7 @@
    "date": "2026-07-25",
    "horizon": "2026-07-31",
    "p": 0.714,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-25",
@@ -1422,7 +1422,7 @@
    "date": "2026-07-26",
    "horizon": "2026-07-31",
    "p": 0.714,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-26",
@@ -1454,7 +1454,7 @@
    "date": "2026-07-27",
    "horizon": "2026-07-31",
    "p": 0.714,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-27",
@@ -1486,7 +1486,7 @@
    "date": "2026-07-28",
    "horizon": "2026-07-31",
    "p": 0.714,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-28",
@@ -1518,7 +1518,7 @@
    "date": "2026-07-29",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-29",
@@ -1542,7 +1542,7 @@
    "date": "2026-07-30",
    "horizon": "2026-07-31",
    "p": 0.808,
-   "outcome": null
+   "outcome": false
   },
   {
    "id": "new-repo-month:2026-07-30",
@@ -1550,7 +1550,7 @@
    "date": "2026-07-30",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-30",
@@ -1582,7 +1582,7 @@
    "date": "2026-07-31",
    "horizon": "2026-07-31",
    "p": 0.643,
-   "outcome": null
+   "outcome": true
   },
   {
    "id": "night-dive-week:2026-07-31",
@@ -1596,6 +1596,38 @@
    "id": "weekend-streak:2026-07-31",
    "market": "weekend-streak",
    "date": "2026-07-31",
+   "horizon": "2026-08-02",
+   "p": 0.25,
+   "outcome": null
+  },
+  {
+   "id": "python-commit:2026-08-01",
+   "market": "python-commit",
+   "date": "2026-08-01",
+   "horizon": "2026-08-02",
+   "p": 0.917,
+   "outcome": null
+  },
+  {
+   "id": "new-repo-month:2026-08-01",
+   "market": "new-repo-month",
+   "date": "2026-08-01",
+   "horizon": "2026-08-31",
+   "p": 0.643,
+   "outcome": null
+  },
+  {
+   "id": "night-dive-week:2026-08-01",
+   "market": "night-dive-week",
+   "date": "2026-08-01",
+   "horizon": "2026-08-02",
+   "p": 0.667,
+   "outcome": null
+  },
+  {
+   "id": "weekend-streak:2026-08-01",
+   "market": "weekend-streak",
+   "date": "2026-08-01",
    "horizon": "2026-08-02",
    "p": 0.25,
    "outcome": null
