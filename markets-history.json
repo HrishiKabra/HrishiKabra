@@ -2463,6 +2463,38 @@
    "horizon": "2026-08-30",
    "p": 0.25,
    "outcome": null
+  },
+  {
+   "id": "python-commit:2026-08-28",
+   "market": "python-commit",
+   "date": "2026-08-28",
+   "horizon": "2026-08-29",
+   "p": 0.5,
+   "outcome": null
+  },
+  {
+   "id": "new-repo-month:2026-08-28",
+   "market": "new-repo-month",
+   "date": "2026-08-28",
+   "horizon": "2026-08-31",
+   "p": 0.571,
+   "outcome": null
+  },
+  {
+   "id": "night-dive-week:2026-08-28",
+   "market": "night-dive-week",
+   "date": "2026-08-28",
+   "horizon": "2026-08-30",
+   "p": 0.5,
+   "outcome": null
+  },
+  {
+   "id": "weekend-streak:2026-08-28",
+   "market": "weekend-streak",
+   "date": "2026-08-28",
+   "horizon": "2026-08-30",
+   "p": 0.25,
+   "outcome": null
   }
  ]
 }
