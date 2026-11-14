@@ -4959,6 +4959,38 @@
    "horizon": "2026-11-15",
    "p": 0.214,
    "outcome": null
+  },
+  {
+   "id": "python-commit:2026-11-14",
+   "market": "python-commit",
+   "date": "2026-11-14",
+   "horizon": "2026-11-15",
+   "p": 0.5,
+   "outcome": null
+  },
+  {
+   "id": "new-repo-month:2026-11-14",
+   "market": "new-repo-month",
+   "date": "2026-11-14",
+   "horizon": "2026-11-30",
+   "p": 0.714,
+   "outcome": null
+  },
+  {
+   "id": "night-dive-week:2026-11-14",
+   "market": "night-dive-week",
+   "date": "2026-11-14",
+   "horizon": "2026-11-15",
+   "p": 0.5,
+   "outcome": null
+  },
+  {
+   "id": "weekend-streak:2026-11-14",
+   "market": "weekend-streak",
+   "date": "2026-11-14",
+   "horizon": "2026-11-15",
+   "p": 0.214,
+   "outcome": null
   }
  ]
 }
